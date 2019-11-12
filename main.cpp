@@ -2,7 +2,7 @@
 #include <SFML/Graphics.hpp>
 #include "func.h"
 
-auto convex_hull = [](vector<point> points){return quick_hull(points);};
+auto convex_hull = [](vector<point> &points){return kirp(points);};
 
 
 int main() {
